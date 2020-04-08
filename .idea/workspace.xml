@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b39d4375-7104-4bb6-bc74-74f74cc0a1a9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1aGJqFFffLEDjEP4I2kU04sezXZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="WhiskyTrackerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codeclan.example.WhiskyTracker.WhiskyTrackerApplication" />
+      <module name="WhiskyTracker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codeclan.example.WhiskyTracker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WhiskyTrackerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b39d4375-7104-4bb6-bc74-74f74cc0a1a9" name="Default Changelist" comment="" />
+      <created>1586356185664</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586356185664</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="839" y="1376" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586356266110">
+      <screen x="350" y="1080" width="1280" height="800" />
+    </state>
+    <state x="839" y="1376" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/350.1080.1280.800/0.0.1920.1080@350.1080.1280.800" timestamp="1586356266110" />
+    <state x="445" y="1271" key="FileDocumentManager.FileCacheConflict" timestamp="1586358134991">
+      <screen x="350" y="1080" width="1280" height="800" />
+    </state>
+    <state x="445" y="1271" key="FileDocumentManager.FileCacheConflict/350.1080.1280.800/0.0.1920.1080@350.1080.1280.800" timestamp="1586358134991" />
+    <state width="1238" height="177" key="GridCell.Tab.0.bottom" timestamp="1586358338166">
+      <screen x="350" y="1080" width="1280" height="800" />
+    </state>
+    <state width="1238" height="177" key="GridCell.Tab.0.bottom/350.1080.1280.800/0.0.1920.1080@350.1080.1280.800" timestamp="1586358338166" />
+    <state width="1238" height="177" key="GridCell.Tab.0.center" timestamp="1586358338160">
+      <screen x="350" y="1080" width="1280" height="800" />
+    </state>
+    <state width="1238" height="177" key="GridCell.Tab.0.center/350.1080.1280.800/0.0.1920.1080@350.1080.1280.800" timestamp="1586358338160" />
+    <state width="1238" height="177" key="GridCell.Tab.0.left" timestamp="1586358338157">
+      <screen x="350" y="1080" width="1280" height="800" />
+    </state>
+    <state width="1238" height="177" key="GridCell.Tab.0.left/350.1080.1280.800/0.0.1920.1080@350.1080.1280.800" timestamp="1586358338157" />
+    <state width="1238" height="177" key="GridCell.Tab.0.right" timestamp="1586358338162">
+      <screen x="350" y="1080" width="1280" height="800" />
+    </state>
+    <state width="1238" height="177" key="GridCell.Tab.0.right/350.1080.1280.800/0.0.1920.1080@350.1080.1280.800" timestamp="1586358338162" />
+  </component>
+</project>
