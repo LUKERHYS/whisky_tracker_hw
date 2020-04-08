@@ -17,16 +17,30 @@ public class WhiskyController {
     @Autowired
     WhiskyRepository whiskyRepository;
 
-    @GetMapping(value = "/whiskies")
+    @GetMapping(value = "")
     public ResponseEntity<List<Whisky>> findAllWhiskies(){
         return new ResponseEntity<>(whiskyRepository.findAll(), HttpStatus.OK);
     }
 
-    @GetMapping(value = "/whiskies/year/{year}")
+    @GetMapping(value = "/year/{year}")
     public ResponseEntity<List<Whisky>> getWhiskyByYear(@PathVariable int year){
         return new ResponseEntity<>(whiskyRepository.findByYear(year), HttpStatus.OK);
+    }
+
+    @GetMapping(value = "/year&distillery")
+    public ResponseEntity<List<Whisky>> getWhiskyByDIstilleryAndAge(@RequestParam(name="distillery", required = false) String distellery, @RequestParam(name="age", required = false) int age){
+        return new ResponseEntity<>(whiskyRepository.findBYDistilleryAndAge(distellery, age), HttpStatus.OK);
     }
 
 
 
 }
+//    @GetMapping(value = "/raids")
+//    public ResponseEntity<List<Raid>> getAllRaids(@RequestParam(name="location1", required=false) String location1, @RequestParam(name="location2", required=false) String location2){
+//        if (location1 != null && location2 != null) {
+//            return new ResponseEntity<>(raidRepository.findByLocationOrLocation(location1, location2), HttpStatus.OK);
+//        }
+//        return new ResponseEntity<>(raidRepository.findAll(), HttpStatus.OK);
+//    }
+
+// // http://localhost:8080/raids?location1=Tortuga&location2=Treasure%20Island // url to type to get search with 2 locations
